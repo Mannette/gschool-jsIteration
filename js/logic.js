@@ -10,3 +10,18 @@ Hints for the first problem:
 NOTE: use a `for` loop to make this happen.
 
 */
+//var prices = Array.from()
+function sum(options) {
+  var x = 0;
+  // result = options +=;
+  // return result;
+  for (var i = 0; i < prices.length; i++) {
+    x += parseInt(prices[i].value);
+  }
+  console.log(x);
+}
+
+function counter() {
+  //
+  var count = select.childElementCount;
+}

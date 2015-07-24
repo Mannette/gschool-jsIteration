@@ -9,3 +9,5 @@ Hints for the first problem:
     - takes the value returned by the `sum` function and displays it on the page
 
 */
+var prices = document.getElementsByTagName('option');
+var y = document.getElementById('sum-all').addEventListener("click", sum());
