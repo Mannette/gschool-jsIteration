@@ -11,7 +11,7 @@ NOTE: use a `for` loop to make this happen.
 
 */
 //var prices = Array.from()
-function sum(options) {
+function sumAll(options) {
   var total = 0;
   // result = options +=;
   // return result;
@@ -19,9 +19,10 @@ function sum(options) {
     total += parseInt(prices[i].value);
   }
   console.log(total);
+  return total;
 }
 
-function counter(options) {
+function countSelected(options) {
   //
   var count = select.childElementCount;
 }

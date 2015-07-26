@@ -9,5 +9,14 @@ Hints for the first problem:
     - takes the value returned by the `sum` function and displays it on the page
 
 */
+// targets answer div
+var appendTo = document.getElementById('Answer');
+// for sumAll function
+// sets prices equal to option object
 var prices = document.getElementsByTagName('option');
-var y = document.getElementById('sum-all').addEventListener("click", sum());
+// targets Sum All button. Runs sumAll function when clicked.
+var sumFunction = document.getElementById('sum-all').addEventListener('click', function(){sumAll();});
+
+
+// for countSelected function
+var counter = document.getElementsByTagName('option').addEventListener('click', function(){countSelected(options);});
