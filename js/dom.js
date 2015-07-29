@@ -28,4 +28,6 @@ var allPrices = document.getElementsByClassName('all-prices');
 
 document.getElementById('sum-all').addEventListener('click', function(){writeAnswer.innerHTML = sumAll();});
 
-document.getElementById('count-selected').addEventListener('click', function(){writeAnswer.innerHTML = countSelected();});
+document.getElementById('count-selected').addEventListener('click', function() {writeAnswer.innerHTML = countSelected();});
+
+document.getElementById('sum-selected').addEventListener('click', function() {writeAnswer.innerHTML = sumSelected();});

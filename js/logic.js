@@ -28,3 +28,14 @@ function countSelected() {
   console.log(counted);
   return counted;
 }
+
+function sumSelected() {
+  total = 0;
+  for (i = 0; i < allPrices[0].selectedOptions.length; i++) {
+    total += parseInt(allPrices[0].selectedOptions[i].value);
+    // console.log(allPrices[0].selectedOptions[i].value);
+  }
+  console.log(total);
+  return total;
+
+}
