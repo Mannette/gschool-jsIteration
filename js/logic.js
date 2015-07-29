@@ -10,19 +10,21 @@ Hints for the first problem:
 NOTE: use a `for` loop to make this happen.
 
 */
+
 //var prices = Array.from()
-function sumAll(options) {
+function sumAll() {
   var total = 0;
   // result = options +=;
   // return result;
-  for (var i = 0; i < prices.length; i++) {
-    total += parseInt(prices[i].value);
+  for (var i = 0; i < allPrices[0].length; i++) {
+    total += parseInt(allPrices[0][i].value);
   }
   console.log(total);
   return total;
 }
 
-function countSelected(options) {
-  //
-  var count = select.childElementCount;
+function countSelected() {
+  var counted = allPrices[0].selectedOptions.length;
+  console.log(counted);
+  return counted;
 }
