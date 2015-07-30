@@ -39,3 +39,17 @@ function sumSelected() {
   return total;
 
 }
+
+function averageAll() {
+  total = 0;
+  total = sumAll() / allPrices[0].length;
+  console.log(total);
+  return total;
+}
+
+function averageSelected() {
+  total = 0;
+  total = sumSelected() / allPrices[0].selectedOptions.length;
+  console.log(total);
+  return total;
+}

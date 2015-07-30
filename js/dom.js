@@ -31,3 +31,7 @@ document.getElementById('sum-all').addEventListener('click', function(){writeAns
 document.getElementById('count-selected').addEventListener('click', function() {writeAnswer.innerHTML = countSelected();});
 
 document.getElementById('sum-selected').addEventListener('click', function() {writeAnswer.innerHTML = sumSelected();});
+
+document.getElementById('average-all').addEventListener('click', function() {writeAnswer.innerHTML = averageAll();});
+
+document.getElementById('average-selected').addEventListener('click', function() {writeAnswer.innerHTML = averageSelected();});
